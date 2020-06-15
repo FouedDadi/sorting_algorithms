@@ -10,8 +10,6 @@ size_t i, j;
 int tmp, pass;
 for (i = 1; i < size; i++)
 {
-if (size < 2)
-break;
 pass = 0;
 for (j = 0; j < size - i; j++)
 {
